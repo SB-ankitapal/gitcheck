@@ -35,6 +35,18 @@ paths:
                     dateOfBirth: '1997-10-31'
                     emailVerified: true
                     signUpDate: '2019-08-24'
+            application/xml:
+              schema:
+                type: object
+                properties:
+                  test:
+                    $ref: 'https://x-20280.stoplight-dev.com/api/v1/projects/open-air/iata-dl/nodes/IATA_Open_Air_JSON_Library_24.4.0%201.json/components/schemas/Carrier?mid=2'
+                    x-stoplight:
+                      id: lzlsf7b2wn11i
+                  amount:
+                    $ref: 'https://x-20280.stoplight-dev.com/api/v1/projects/open-air/iata-dl/nodes/IATA_Open_Air_JSON_Library_24.4.0%201.json/components/schemas/Amount?mid=2'
+                    x-stoplight:
+                      id: ov1d91wmeucn2
         '404':
           description: User Not Found
       operationId: get-users-userId
