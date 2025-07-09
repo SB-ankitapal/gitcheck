@@ -58,6 +58,10 @@ paths:
                     $ref: 'https://x-20280.stoplight-dev.com/api/v1/projects/open-air/iata-dl/nodes/IATA_Open_Air_JSON_Library_24.4.0%201.json/components/schemas/Carrier?mid=2'
                     x-stoplight:
                       id: yg699ilcs20p8
+                  refer212:
+                    $ref: 'https://x-20280.stoplight-dev.com/api/v1/projects/open-air/project-dl/nodes/IATA_Open_Air_JSON_Library_24.4.0%205%20(2).json/components/schemas/Amount?mid=2'
+                    x-stoplight:
+                      id: idsyd6l7q2bme
       operationId: get-users-userId
       description: Retrieve the information of the user with the matching user ID.
       x-stoplight:
