@@ -49,6 +49,15 @@ paths:
                       id: ov1d91wmeucn2
         '404':
           description: User Not Found
+          content:
+            application/xop+xml:
+              schema:
+                type: object
+                properties:
+                  refer:
+                    $ref: 'https://x-20280.stoplight-dev.com/api/v1/projects/open-air/iata-dl/nodes/IATA_Open_Air_JSON_Library_24.4.0%201.json/components/schemas/Carrier?mid=2'
+                    x-stoplight:
+                      id: yg699ilcs20p8
       operationId: get-users-userId
       description: Retrieve the information of the user with the matching user ID.
       x-stoplight:
